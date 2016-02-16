@@ -1,0 +1,180 @@
+body {
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: 12px;
+	background: #333;
+	text-align: center;
+	color: #000;
+	background:#F1E2C0;
+}
+
+
+
+#wrap {
+	//width: 1000 px;
+	width: 100% ;
+	margin: 0 auto;
+	//background: #9F946E;
+	background:#F1E2C0;
+	border: 1px solid #333;
+	text-align: left;
+}
+
+#top {
+	//width: 1000px;
+	width: 100%;
+	//border-bottom: 1px solid #ccc;
+	//background: #fff;
+	//background: #A1AF9A;
+	//background: #BBC7B9;
+	background: linear-gradient(to bottom right, #BAC9B8 20% ,#8FA08D 45%);
+	
+	//background: #8FA08D;
+	//height: 92px;
+}
+	
+}
+#top-logo {
+	height: 92px;
+	//width: 1000px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #BAC9B8 20% ,#8FA08D 45%);
+	
+}
+
+
+
+#top img {
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	//width: 100%;
+	//height: 132px;
+	//height: auto;
+}
+
+#nav {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	background: #486E5D;
+	clear: both;
+	padding: 10px 0;
+        font-size: 12px;
+        font-weight: bold;
+	text-align: center;
+	color:#fff;
+}
+
+
+#nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	border-bottom: 1px dotted #417e6c;
+}
+
+#content {
+	width: 800 px;
+	float: left;
+	margin: 5px 15px;
+	line-height: 15px;
+	font-size: 12px;
+	display: inline;
+
+
+}
+
+#bottom {
+	width: 1000px;
+	clear: both;
+	border-top: 1px solid #ccc;
+	padding: 9px 0;
+	text-align: center;
+	font-size:9px;
+}
+
+.navbar-default {
+	background-color: #486E5D;
+	border-color:#486E5D;
+	border-radius:0;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+// bootstrap navbar overrides start
+
+
+
+// bootstrap navbar overrides end
+
+
+
+
+h2 {
+	font-size: 18px;
+}
+
+a {
+	color: #486E5D;
+}
+
+p.sub-title {
+	margin-top: -15px;
+	font-weight: bold;
+}
+
+span.section-title {
+	font-weight: bold;
+	color: #417e6c;
+	display: block;
+}
+
+img {
+	border: 0;
+}
+
+img.align-right {
+	float: right;
+}
+
+img.sponsor {
+	margin-right: 15px;
+}
+
+table th, td {
+	width: 100px;
+	text-align: center;
+}
+
+table th {
+	font-weight: bold
+}
+
+table th.left, td.left {
+	text-align: left;
+}
+
+div.montage-clear {
+	clear: both;
+}
+
+div.montage-container {
+	display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+div.montage {
+	float: left;
+	margin-right: 5px;
+}
+
+div.sponsors {
+	text-align: center;
+}
+

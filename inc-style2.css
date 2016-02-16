@@ -1,0 +1,211 @@
+body {
+	background:#8FA08D;
+}
+
+.header {
+	background: linear-gradient(to bottom right, #BAC9B8 20% ,#8FA08D 45%);
+}
+
+.well-non-rounded{
+	border-radius: 0 !important;
+	background-color: #F1E2C0;
+}
+
+.container-nopad{
+	padding:0;
+}
+
+
+/* navbar overrides */
+
+.navbar-default {
+	background-color: #486E5D;
+	border-color:#486E5D;
+	border-radius:0;
+	text-align: center;
+}
+
+.navbar {
+	min-height: 30px;
+	margin-bottom:0;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #f1e2c0;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: bold;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #f1e2c0;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #486e5d;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #f1e2c0;
+  background-color: #44ad68;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #486e5d;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #f1e2c0;
+  background-color: #44ad68;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #f1e2c0;
+  background-color: #44ad68;
+}
+.navbar-default .navbar-toggle {
+  border-color: #44ad68;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #44ad68;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #f1e2c0;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f1e2c0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f1e2c0;
+    background-color: #44ad68;
+  }
+}
+
+/*bootstrap navbar overrides end*/
+
+
+#document.ss-form-container{
+	margin: 0 auto;
+}
+
+
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+//margin: 10px;
+}
+
+
+
+.race-date {
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: "Georgia", Georgia, serif;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+a {
+	color: #486E5D;
+}
+
+p.sub-title {
+	margin-top: -15px;
+	font-weight: bold;
+}
+
+span.section-title {
+	font-weight: bold;
+	color: #417e6c;
+	display: block;
+}
+
+img {
+	border: 0;
+}
+
+img.align-right {
+	float: right;
+}
+
+img.sponsor {
+	margin-right: 15px;
+}
+/*
+table th, td {
+	width: 100px;
+	text-align: center;
+}
+
+table th {
+	font-weight: bold
+}
+
+table th.left, td.left {
+	text-align: left;
+}
+*/
+div.montage-clear {
+	clear: both;
+}
+
+div.montage-container {
+	display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+div.montage {
+	float: center;
+	margin-right: 5px;
+}
+
+div.sponsors {
+	text-align: center;
+}
+
